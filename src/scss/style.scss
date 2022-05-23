@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background:#F4F4F6;
+    padding: 140px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dates{
+    &--double {
+        display: flex;
+    }
+    &__dropdown {
+        display:flex;
+        flex-direction: column;
+    }
+}
